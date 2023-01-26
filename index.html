@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather-forecast</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forecast">
+            <div class="city-infos" id="city-infos">
+                <h2>City</h2>
+                <p>Country City</p>
+                <ul class="city-weather-data">
+                    <li class="celsius">Celsius</li>
+                    <li class="weather-condition">Weather Condition</li>
+                    <li class="date">Today</li>
+                </ul>
+            </div>
+            <div>
+                <form id="form" class="form">
+                    <input type="text" placeholder="enter a city" class="search-input" id="search-input">
+                    <button class="search-btn">Find</button>
+                </form>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26081603.294420466!2d-95.677068!3d37.06250000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1674752159520!5m2!1sru!2s" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
